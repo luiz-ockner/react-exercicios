@@ -1,0 +1,20 @@
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.toggleContainer label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.on{
+    background-color: #4caf50;
+}
+
+.off{
+    background-color: #f44336;
+}

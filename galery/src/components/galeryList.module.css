@@ -1,0 +1,22 @@
+.galeryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.galeryList img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.galeryItem {
+  width: calc(33.333% - 10px);
+  position: relative;
+}
+.galeryItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
